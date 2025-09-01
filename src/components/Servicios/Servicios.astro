@@ -1,0 +1,40 @@
+---
+import TarjetaServicio from "./TarjetaServicio.astro";
+import servicios from "../../../data/servicios.json";
+---
+    <!--Titulo principal de la sección -->
+<section id="servicios" class="relative pt-10 pb-40 bg-white">
+  <p class="mt-10 text-center" data-aos="fade-down" data-aos-duration="1000">
+    <strong class="text-5xl text-secondary">
+      Apertura de locales y remodelaciones
+    </strong>
+  </p>
+    <!--Contenedor de las tarjetas -->
+  <div class="grid items-center grid-cols-4 gap-4 px-8 mt-20 justify-items-center" data-aos="flip-up" data-aos-duration="2000">
+    {servicios.map((servicio) => (
+      <TarjetaServicio
+        title={servicio.title}
+        image={servicio.image}
+        description={servicio.description ?? []}
+      />
+    ))}
+  </div>
+
+   <!-- Divisor decorativo abajo -->
+<div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none rotate-180">
+  <svg
+    class="relative block w-full h-20"
+    xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="none"
+    viewBox="0 0 120 28"
+  >
+    <!-- Parte superior -->
+    <path d="M0 0 L120 0 L120 30 L0 30 Z" fill="#0464a4"></path>
+
+    <!-- Onda decorativa -->
+    <path
+      d="M0 0 C 30 30 90 -10 120 20 L120 30 L0 30 Z"
+      fill="#fbbf24"
+    ></path>
+  </svg>
+</div>

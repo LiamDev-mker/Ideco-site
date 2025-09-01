@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Obra",
+    "image": "/Images/Servicios/Obra.jpg",
+    "description": ["Albañilería", "Herrería y aluminio", "Acabados"]
+  },
+  {
+    "title": "Imagen interior y exterior",
+    "image": "/Images/Servicios/Fachadas.jpg",
+    "description": ["Instalación de vinilos", "Letras PVC", "Anuncios 3D"]
+  },
+  {
+    "title": "Refrigeración e instalación eléctrica",
+    "image": "/Images/Servicios/Refrigeración.jpg",
+    "description": [
+      "Instalación de fábricas de hielo",
+      "Cuartos fríos",
+      "Instalaciones eléctricas"
+    ]
+  },
+  {
+    "title": "Plomería",
+    "image": "/Images/Servicios/Plomería.jpg",
+    "description": [
+      "Conexiones a red de agua potable",
+      "Instalaciones de tubería PVC",
+      "Tubo Plus"
+    ]
+  }
+]

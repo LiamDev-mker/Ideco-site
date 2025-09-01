@@ -1,0 +1,32 @@
+---
+import { RiInformationFill } from "react-icons/ri";
+import { MdDesignServices } from "react-icons/md";
+import { MdHomeWork } from "react-icons/md";
+import { BiSolidContact } from "react-icons/bi";
+---
+
+<header class="flex items-center justify-between h-24 ">
+    <div class="flex flex-col items-center justify-center h-full" data-aos="fade-right" data-aos-duration="1000">
+        <img class="w-auto px-4 py-4 ml-4 h-25" src="/public/Images/Logo-ideco.jpg" >
+    </div>
+    <div class="flex items-center justify-center w-1/2 h-full bg-primaryBg border-l-5 border-secondary" data-aos="fade-left" data-aos-duration="1000">
+        <nav class="flex items-center justify-center gap-12 text-lg font-medium text-white w-max" >
+            <div class="flex flex-col items-center transition-transform duration-300 transform hover:scale-120 hover:text-secondary hover:cursor-pointer">
+                <RiInformationFill className="text-3xl mb-1"/>
+                <a href="#sobre-nosotros" class="h-full">Sobre nosotros</a>
+            </div>
+            <div class="flex flex-col items-center transition-transform duration-300 transform hover:scale-120 hover:text-secondary hover:cursor-pointer">
+                <MdDesignServices className="text-3xl mb-1"/>
+                <a href="#servicios" class="h-full">Servicios</a>
+            </div>
+            <div class="flex flex-col items-center transition-transform duration-300 transform hover:scale-120 hover:text-secondary hover:cursor-pointer">
+                <MdHomeWork className="text-3xl mb-1"/>
+                <a href="#proyectos" class="h-full">Proyectos</a>
+            </div>
+            <div class="flex flex-col items-center transition-transform duration-300 transform hover:scale-120 hover:text-secondary hover:cursor-pointer">
+                <BiSolidContact className="text-3xl mb-1"/>
+                <a href="#contacto" class="h-full">Contacto</a>
+            </div>
+        </nav>
+    </div>
+</header>

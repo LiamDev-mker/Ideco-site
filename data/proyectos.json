@@ -1,0 +1,66 @@
+[
+  {
+    "nombre": "Oxxo la vista, Querétaro, Querétaro",
+    "images": [
+      "/Images/Proyectos/Oxxo-la-vista/Imagen1.jpg",
+      "/Images/Proyectos/Oxxo-la-vista/Imagen2.jpg",
+      "/Images/Proyectos/Oxxo-la-vista/Imagen3.jpg",
+      "/Images/Proyectos/Oxxo-la-vista/Imagen4.jpg"
+    ],
+    "description": [
+      "Acabados de pisos y muros",
+      "Instalación eléctrica e hidrosanitaria",
+      "Pintura y plafones",
+      "Ductos de aire acondicionado",
+      "Cancelería y carpintería",
+      "CCTV, voz y datos"
+    ]
+  },
+  {
+    "nombre": "Oxxo San Félix, Querétaro",
+    "images": [
+      "/Images/Proyectos/Oxxo-San-Felix/Imagen1.jpg",
+      "/Images/Proyectos/Oxxo-San-Felix/Imagen2.jpg",
+      "/Images/Proyectos/Oxxo-San-Felix/Imagen3.jpg",
+      "/Images/Proyectos/Oxxo-San-Felix/Imagen4.jpg"
+    ],
+    "description": [
+      "Anuncio luminoso",
+      "Termómetro",
+      "Bandera",
+      "Panel de aluminio",
+      "Cancelería",
+      "Pintura"
+    ]
+  },
+  {
+    "nombre": "Rotulación vehicular",
+    "images": [
+      "/Images/Proyectos/Rotulacion-vehicular/Imagen1.jpg",
+      "/Images/Proyectos/Rotulacion-vehicular/Imagen2.jpg",
+      "/Images/Proyectos/Rotulacion-vehicular/Imagen3.jpg",
+      "/Images/Proyectos/Rotulacion-vehicular/Imagen4.jpg"
+    ],
+    "description": [
+      "Diseño gráfico personalizado para vehiculos",
+      "Impresión en vinil de alta calidad",
+      "Aplicación de vinil sobre carrocería y cristales",
+      "Instalación de logotipos y mensajes promocionales"
+    ]
+  },
+  {
+    "nombre": "Branding tiendas de conveniencia",
+    "images": [
+      "/Images/Proyectos/Branding/imagen1.jpg",
+      "/Images/Proyectos/Branding/imagen2.jpg",
+      "/Images/Proyectos/Branding/imagen3.jpg",
+      "/Images/Proyectos/Branding/imagen4.jpg"
+    ],
+    "description": [
+      "Diseño y aplicación de imagen corporativa interior y exterior",
+      "Instalación de rótulos y anuncios luminosos",
+      "Colocación de elementos publicitarios",
+      "Uniformidad cromática de mobiliario y señalética"
+    ]
+  }
+]
